@@ -42,5 +42,5 @@ It won’t be wrong to say that the blockchain technology is the missing link in
 * Azure Blockchain
 
 ## **APIs Datasources and Libraries**
-* Open Government Data Platform India(https://data.gov.in/)
+* [Datasets on Open Government Data Platform India](https://data.gov.in/)
 
