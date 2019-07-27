@@ -24,9 +24,6 @@ number followed by the complete name of the voter as well as the hash of the pre
 (4) Adding the vote to the Blockchain: After a block is created, and depending on the candidate selected, the information is
 recorded in the corresponding blockchain. Each block gets linked to the previously cast vote.
 
-
-
-
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--a9s-VZ7n--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/qp8u0e1mo5dd7x1jhiot.png)
 
 
