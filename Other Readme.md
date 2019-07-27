@@ -12,19 +12,14 @@ Our country has been frequently scandalised by Electronic Voting Machine (EVM) s
 ## **Idea**
 The working of E-Voting system using Blockchain is:
 
-(1)Requesting to vote: The user will have to log in to the voting system using his credentials- in this case, the e-voting system
-will use his Aadhaar Number, and the voting confirmation number provided to registered voters by the local
+(1)Requesting to vote: The user will have to log in to the voting system using his credentials- in this case, the e-voting system will use his Aadhaar Number, and the voting confirmation number provided to registered voters by the local
 authorities. The system will check all information entered and, if matched with a valid voter, the user will be authorized to
 cast a vote.
+
 (2) Casting a vote:  Casting the vote will be done through a friendly user interface. For each voter a token is generated known as Ethereum, with initial Boolean value one, once a vote is casted it becomes 0. A voter can cast a vote if and only if Ethereum value is 1. In this way revoting problem is resolved.
 
 (3) Encrypting votes: After the user casts his vote, the system will generate an input that contains the voter identification
-number followed by the complete name of the voter as well as the hash of the previous vote. This way each input will be unique
-and ensure that the encrypted output will be unique as well. The encrypted information will be recorded in the block header of
-each vote cast. The information related to each vote will be encrypted using SHA one-way hash function that has no known
-reverse to it. The only theoretically possible way to reverse the hash would be to guess the seed data and the encryption
-method and then hash it to see if the results match. This way of hashing votes makes it nearly impossible to reverse engineer,
-therefore there would be no way voters' information could be retrieved.
+number followed by the complete name of the voter as well as the hash of the previous vote. This way each input will be unique and ensure that the encrypted output will be unique as well. The encrypted information will be recorded in the block header of each vote cast. The information related to each vote will be encrypted using SHA one-way hash function that has no known reverse to it. The only theoretically possible way to reverse the hash would be to guess the seed data and the encryption method and then hash it to see if the results match. This way of hashing votes makes it nearly impossible to reverse engineer, therefore there would be no way voters' information could be retrieved.
 
 (4) Adding the vote to the Blockchain: After a block is created, and depending on the candidate selected, the information is
 recorded in the corresponding blockchain. Each block gets linked to the previously cast vote.
@@ -43,13 +38,13 @@ to the blockchain. The voting system will have a node in each district to ensure
 
 ## **Advantages of Voting on Blockchain**
 
-### Eliminate voter fraud and ensure Right to Vote:
+* Eliminate voter fraud and ensure Right to Vote:
 
-### Transparent Elections:
+* Transparent Elections:
 
-### A secure Voting Platform:
+* A secure Voting Platform:
 
-### Voting made Accessible to every citizen:
+* Voting made Accessible to every citizen:
 
 
 ## **Technology Stack**
