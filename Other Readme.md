@@ -56,7 +56,7 @@ to the blockchain. The voting system will have a node in each district to ensure
 * Ethereum
 * Azure Blockchain
 
-## **APIs, Datasources and Libraries**
+## **APIs, Datasources and Documentation**
 * [Datasets on Open Government Data Platform India](https://data.gov.in/)
 * [Azure Blockchain Workbench Documentation](https://docs.microsoft.com/en-us/azure/blockchain/workbench/)
 
