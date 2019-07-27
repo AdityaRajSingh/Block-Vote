@@ -9,6 +9,8 @@
 
 Our country has been frequently scandalised by electronic voting machines (EVMs) scams as of late. [Several reports and studies](https://indiaevm.org/evm_tr2010-jul29.pdf?source=post_page) have been brought into the public domain that alleges that EVMs hardware and software can be tampered with. Though the Election Commission of India (ECI) has denied each report stating that EVMs have equipment or programming vulnerabilities that can be abused to confer election malpractices.
 
+## **Idea**
+
 The primary step during elections is voter registration. The voter registration is still going to be off the chain process, where the eligible voter would be identified by their national Identity Cards like AADHAR, PAN card etc. Once the voter registration agency determines that someone is eligible to vote, their vote would be taken into account via blockchain platform which will also be an online ledger where every vote will be registered. Each voter would be allowed to vote only once by implementing the same mechanism used to ensure that the double spending problem does not exist, but now with voting. On a blockchain-enabled voting platform, each vote would be added as a block where each one is verified by every stakeholder based on agreed algorithms.
 
 
