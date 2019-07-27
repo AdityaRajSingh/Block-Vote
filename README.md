@@ -24,13 +24,13 @@ In the Blockchain voting process, a separate blockchain application would be bui
 ## **Advantages of Voting on Blockchain**
 
 ### Eliminate voter fraud and ensure Right to Vote:
-Blockchain experts are confident that the blockchain’s attributes of transparency, immutability and trust can work wonders for ensuring Right to vote for every citizen. It would virtually eliminate voter fraud by making sure that everyone is who they say they are i.e. authenticating voters’ identity.
+Blockchain’s attributes of transparency, immutability and trust can work wonders for ensuring Right to vote for every citizen. It would virtually eliminate voter fraud by making sure that everyone is who they say they are i.e. authenticating voters’ identity.
 ### Transparent Elections:
-Integrating Blockchain into elections can revolutionize voting and the infrastructure of our democracy. Blockchain’s inherent feature transparency, allow for votes to be followed, counted, and correlated by many different sources while maintaining the privacy of the voters due to the anonymous transactions. An open source blockchain voting platform that does not have any proprietary elements to it, would allow any citizen or agency to audit the functionality of the application and contribute to improving its security and transparency.
+Blockchain’s inherent feature transparency, allow for votes to be followed, counted, and correlated by many different sources while maintaining the privacy of the voters due to the anonymous transactions. An open source blockchain voting platform that does not have any proprietary elements to it, would allow any citizen or agency to audit the functionality of the application and contribute to improving its security and transparency.
 ### A secure Voting Platform:
-Blockchain technology has the ability to introduce a voting system that is impossible to hack. On such a platform, a block is added unto the chain only after it has been verified according to the agreed algorithms ensuring that there is no security breach during voting. The votes could be verified right after the voting is finished so that the votes are counted correctly and in real-time.
+Blockchain technology provides a voting system that is impossible to hack. On such a platform, a block is added unto the chain only after it has been verified according to the agreed algorithms ensuring that there is no security breach during voting. The votes could be verified right after the voting is finished so that the votes are counted correctly and in real-time.
 ### Voting made Accessible to every citizen:
-It won’t be wrong to say that the blockchain technology is the missing link in the architecture of a viable online voting system. It must also be taken into account that going truly digital with our polls will allow the voting process to move out of the polling booths and safely onto our smartphones. It would make polling much more convenient while making it accessible to voters in terror-affected areas.
+Going truly digital with our polls will allow the voting process to move out of the polling booths and safely onto our smartphones. It would make polling much more convenient while making it accessible to voters in terror-affected areas.
 
 
 ## **Technology Stack**
