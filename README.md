@@ -40,7 +40,7 @@ Going truly digital with our polls will allow the voting process to move out of 
 * Ethereum
 * Azure Blockchain
 
-## **APIs, Datasources and Libraries**
+## **APIs, Datasources and Documentation**
 * [Datasets on Open Government Data Platform India](https://data.gov.in/)
 * [Azure Blockchain Workbench Documentation](https://docs.microsoft.com/en-us/azure/blockchain/workbench/)
 
