@@ -11,7 +11,8 @@ Our country has been frequently scandalised by electronic voting machines (EVMs)
 
 The primary step during elections is voter registration. The voter registration is still going to be off the chain process, where the eligible voter would be identified by their national Identity Cards like AADHAR, PAN card etc. Once the voter registration agency determines that someone is eligible to vote, their vote would be taken into account via blockchain platform which will also be an online ledger where every vote will be registered. Each voter would be allowed to vote only once by implementing the same mechanism used to ensure that the double spending problem does not exist, but now with voting. On a blockchain-enabled voting platform, each vote would be added as a block where each one is verified by every stakeholder based on agreed algorithms.
 
-https://res.cloudinary.com/practicaldev/image/fetch/s--a9s-VZ7n--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/qp8u0e1mo5dd7x1jhiot.png
+
+![](https://res.cloudinary.com/practicaldev/image/fetch/s--a9s-VZ7n--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/qp8u0e1mo5dd7x1jhiot.png)
 
 On a Blockchain-enabled voting platform, the country would no longer need a central agency which must be trusted to conduct the elections fairly and securely. Instead, the whole voting process would be decentralized i.e. rather than keeping the vote at a single location, an identical copy of the blockchain is stored on every user’s server.
 Voting on Blockchain empowers each and every citizen to vote and become a node in the system, as long as they meet requirements which are confirmed during registration. The blockchain-based election platform would enhance voting integrity and voter confidence, given its ability to secure votings and ensure traceability through the anonymity of voters, Public key encryption and Audit trail.
