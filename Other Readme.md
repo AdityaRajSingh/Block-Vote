@@ -7,7 +7,7 @@
 ## **Introduction**
 
 
-Our country has been frequently scandalised by Electronic Voting Machine (EVM) scams as of late. [Several reports and studies](https://indiaevm.org/evm_tr2010-jul29.pdf?source=post_page) have been brought into the public domain that allege that EVMs hardware and software can be tampered with. Though the Election Commission of India (ECI) has denied each report stating that EVMs have equipment or programming vulnerabilities that can be abused to confer election malpractices.
+Our country has been frequently scandalised by Electronic Voting Machine (EVM) scams as of late. [Several reports and studies](https://indiaevm.org/evm_tr2010-jul29.pdf?source=post_page) have been brought into the public domain that allege that EVMs' hardware and software can be tampered with. Though the Election Commission of India (ECI) has denied each report stating that EVMs have equipment or programming vulnerabilities that can be abused to confer election malpractices.
 
 ## **Idea**
 The working of E-Voting system using Blockchain is:
@@ -18,7 +18,7 @@ authorities. The system will check all information entered and, if matched with 
 cast a vote.
 
 ### Casting a vote:
-Casting the vote will be done through a friendly user interface. For each voter a token is generated known as Ethereum, with initial Boolean value one, once a vote is casted it becomes 0. A voter can cast a vote if and only if Ethereum value is 1. In this way revoting problem is resolved.
+Casting the vote will be done through a friendly user interface. For each voter a token is generated known as Ethereum, with initial Boolean value one, once a vote is casted it becomes zero. A voter can cast a vote if and only if Ethereum value is one. In this way revoting problem is resolved.
 
 ### Encrypting votes:
 After the user casts his vote, the system will generate an input that contains the voter identification
