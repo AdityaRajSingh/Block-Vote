@@ -7,29 +7,45 @@
 ## **Introduction**
 
 
-Our country has been frequently scandalised by Electronic Voting Machine (EVM) scams as of late. [Several reports and studies](https://indiaevm.org/evm_tr2010-jul29.pdf?source=post_page) have been brought into the public domain that allege that EVMs hardware and software can be tampered with. Though the Election Commission of India (ECI) has denied each report stating that EVMs have equipment or programming vulnerabilities that can be abused to confer election malpractices.
+Our country has been frequently scandalised by Electronic Voting Machine (EVM) scams as of late. [Several reports and studies](https://indiaevm.org/evm_tr2010-jul29.pdf?source=post_page) have been brought into the public domain that allege that EVMs' hardware and software can be tampered with. Though the Election Commission of India (ECI) has denied each report stating that EVMs have equipment or programming vulnerabilities that can be abused to confer election malpractices.
 
 ## **Idea**
+The working of E-Voting system using Blockchain is:
 
-The primary step during elections is voter registration. The voter registration is still going to be off the chain process, where the eligible voters will be identified by their national Identity Cards like AADHAR, PAN card etc. Once the voter registration agency determines that someone is eligible to vote, his/her vote will be taken into account via the blockchain platform which will also be an online ledger where every vote will be registered. Each voter would be allowed only to vote once. On a blockchain-enabled voting platform, each vote would be added as a block where each one is verified by every stakeholder based on agreed algorithms.
+### Requesting to vote:
+The user will have to log in to the voting system using his credentials- in this case, the e-voting system will use his Aadhaar Number, and the voting confirmation number provided to registered voters by the local
+authorities. The system will check all information entered and, if matched with a valid voter, the user will be authorized to
+cast a vote.
 
+### Casting a vote:
+Casting the vote will be done through a friendly user interface. For each voter a token is generated known as Ethereum, with initial Boolean value one, once a vote is casted it becomes zero. A voter can cast a vote if and only if Ethereum value is one. In this way revoting problem is resolved.
+
+### Encrypting votes:
+After the user casts his vote, the system will generate an input that contains the voter identification
+number followed by the complete name of the voter as well as the hash of the previous vote. This way each input will be unique and ensure that the encrypted output will be unique as well. The encrypted information will be recorded in the block header of each vote cast. The information related to each vote will be encrypted using SHA one-way hash function that has no known reverse to it. The only theoretically possible way to reverse the hash would be to guess the seed data and the encryption method and then hash it to see if the results match. This way of hashing votes makes it nearly impossible to reverse engineer, therefore there would be no way voters' information could be retrieved.
+
+### Adding the vote to the Blockchain:
+After a block is created, and depending on the candidate selected, the information is
+recorded in the corresponding blockchain. Each block gets linked to the previously cast vote.
 
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--a9s-VZ7n--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/qp8u0e1mo5dd7x1jhiot.png)
 
-On a Blockchain-enabled voting platform, the country will no longer need a central agency. Instead, the whole voting process will be decentralized i.e. rather than keeping the vote at a single location, an identical copy of the blockchain is stored on every user’s server. Voting on Blockchain empowers each and every citizen to vote and become a node in the system, as long as they meet the requirements which are confirmed during registration.
 
-In the Blockchain voting process, a separate blockchain application will be built for counting the votes in the digital ballot box. The digital votes can be randomized more than three times in the digital ballot box to ensure that the identity of the voters’ is never revealed. The system would not involve a delay between polling and results as results could be declared in real-time. Thus, greatly reducing the chance of fraud in elections.
+To ensure that the system is secure, the block will contain the previous voter’s information. If any of the
+blocks were compromised, then it would be easy to find out since all blocks are connected to each other. The
+blockchain is decentralized and cannot be corrupted, no single point of failure exists. The blockchain is where the
+actual voting takes place. The user’s vote gets sent to one of the nodes on the system, and the node then adds the vote
+to the blockchain. The voting system will have a node in each district to ensure the system is decentralized.
 
 ## **Advantages of Voting on Blockchain**
 
-### Eliminate voter fraud and ensure Right to Vote:
-Blockchain’s attributes of transparency, immutability and trust can work wonders for ensuring Right to vote for every citizen. It would virtually eliminate voter fraud by making sure that everyone is who they say they are i.e. authenticating voters’ identity.
-### Transparent Elections:
-Blockchain’s inherent feature transparency, allows for votes to be followed, counted, and correlated by many different sources while maintaining the privacy of the voters due to the anonymous transactions. An open source blockchain voting platform that does not have any proprietary elements to it, would allow any citizen or agency to audit the functionality of the application and contribute to improving its security and transparency.
-### A secure Voting Platform:
-Blockchain technology provides a voting system that is impossible to hack. On such a platform, a block is added onto the chain only after it has been verified according to the agreed algorithms ensuring that there is no security breach during voting. The votes could be verified right after the voting is finished so that the votes are counted correctly and in real-time.
-### Voting made Accessible to every citizen:
-Going truly digital with our polls will allow the voting process to move out of the polling booths and safely onto our smartphones. It would make polling much more convenient while making it accessible to voters in terror-affected areas.
+* Eliminate voter fraud and ensure Right to Vote:
+
+* Transparent Elections:
+
+* A secure Voting Platform:
+
+* Voting made Accessible to every citizen:
 
 
 ## **Technology Stack**
