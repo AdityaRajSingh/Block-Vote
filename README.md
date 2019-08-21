@@ -57,6 +57,10 @@ to the blockchain. The voting system will have a node in each district to ensure
 * Solidity
 * Ethereum
 * Azure Blockchain
+* Mongo DB
+* Truffle
+* Ganache CLI
+
 
 ## **APIs, Datasources and Documentation**
 * [Datasets on Open Government Data Platform India](https://data.gov.in/)
