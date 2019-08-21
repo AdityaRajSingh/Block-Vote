@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Block-Vote DApp</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>Block-Vote Voting Application</h1>
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Candidate</th>
+          <th>Votes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>BJP</td>
+          <td id="BJP">0</td>
+        </tr>
+        <tr>
+          <td>Congress</td>
+          <td id="Congress">0</td>
+        </tr>
+        <tr>
+          <td>Other</td>
+          <td id="Other">0</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <input type="text" id="candidate" />
+  <a href="#"  id="btn" class="btn btn-success">Vote</a>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/web3@0.20.4/dist/web3.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="js/functions.js"></script>
+</html>
