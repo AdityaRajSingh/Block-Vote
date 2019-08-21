@@ -1,0 +1,9 @@
+body{
+    background-image: url("/images/democracy.jpg");
+    background-size: cover;
+    
+    margin-top: 2%;
+}
+.table-responsive, h1 {
+    
+}

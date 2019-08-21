@@ -1,0 +1,9 @@
+body{
+    background-image: url("/images/flag2.jpg");
+    background-size: cover;
+    
+    margin-left: 10%;
+}
+.table-responsive, h1 {
+    color:white;
+}
