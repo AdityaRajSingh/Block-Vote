@@ -10,8 +10,9 @@ var parties={'Congress':0,'BJP':0,'Other':0};
   console.log(candidateName);
   
   parties[candidateName]++;
+  axios.put('http://localhost:4000/'+candidateName);
       
       $("#" + candidateName).html(parties[candidateName]);
-
+      
     $(this).removeAttr('href');
   });

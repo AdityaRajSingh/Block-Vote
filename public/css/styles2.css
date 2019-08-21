@@ -4,6 +4,15 @@ body{
     
     margin-top: 2%;
 }
+
 .table-responsive, h1 {
+    color:white;
+    width:40%;
+}
+.container{
+    position:fixed;
+    top:70%;
+    left:20%;
     
+
 }
