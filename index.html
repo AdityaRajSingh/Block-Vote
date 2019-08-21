@@ -9,12 +9,14 @@
 </head>
 <body>
 <div class="container">
-  <h1>Block-Vote Voting Application</h1>
+    <h1>Block-Vote Voting Application</h1>
+    ​<textarea style="margin-bottom: 20px" id="txtArea" rows="1" cols="70" placeholder="Enter Your Private Key"></textarea>
+
   <div class="table-responsive">
     <table class="table table-bordered">
       <thead>
         <tr>
-          <th>Candidate</th>
+          <th>Party</th>
           <th>Voted For</th>
         </tr>
       </thead>
@@ -34,7 +36,7 @@
       </tbody>
     </table>
   </div>
-  <input type="text" id="candidate" />
+  <input type="text" id="candidate" placeholder="Enter Party Name" />
   <a href=""  id="btn" class="btn btn-success">Vote</a>
   </div>
 </body>
@@ -42,4 +44,5 @@
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="js/functions.js"></script>
+<script src="indexBlock.js"></script>
 </html>

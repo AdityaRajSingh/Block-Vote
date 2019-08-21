@@ -1,18 +1,22 @@
 body{
-    background-image: url("/images/democracy.jpg");
+    background-image: url("/images/img3.jpg");
     background-size: cover;
     
     margin-top: 2%;
 }
 
 .table-responsive, h1 {
-    color:white;
+    color:black;
     width:40%;
+}
+ table{
+    border:solid black 2px !important;
+    border-collapse: collapse !important;
 }
 .container{
     position:fixed;
-    top:70%;
-    left:20%;
+    top:5%;
+    left:5%;
     
 
 }
