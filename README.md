@@ -1,6 +1,6 @@
 # Block-Vote
 
-
+[Check this presentaion to understand our project](https://docs.google.com/presentation/d/1ds6Hmaqtl3wEkaKsUDTKEA8mRXnYC4CNR0T72g4lfl8/edit?usp=sharing)
 #  Decentralized E-Voting System Using Blockchain Technology
 
 
